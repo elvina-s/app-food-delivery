@@ -4,8 +4,6 @@ body {
 
 }
 
-
-
 .block {
 
   background-color: rgba(255, 255, 255, 0.5);
@@ -71,4 +69,18 @@ button {
 
   margin-left: 10px;
 
+}
+
+.quantityBtn {
+  margin: 0;
+}
+
+.quantity {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.AddToCartBtn {
+  margin: 30px 0px;
+  
 }

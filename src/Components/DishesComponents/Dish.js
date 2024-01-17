@@ -17,7 +17,7 @@ const Dish = ({dish}) => {
             <h2>{dish.name}</h2>
             <p>$ {dish.price}</p>
             <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
-            <button 
+            <button className="AddToCartBtn"
             onClick={() => {dispatch(addItemToCart({dish, quantity}))}}>
                 Add to Cart
             </button>
